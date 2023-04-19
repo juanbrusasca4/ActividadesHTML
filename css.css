@@ -1,0 +1,61 @@
+.preguntas {
+    font-family: 'Times New Roman', Times, serif;
+}
+#encabezado{
+    background-color: aqua;
+}
+#titulo1 {
+    color: yellow;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+ul {
+    text-align: center;
+    overflow: hidden;
+    background-color: grey;
+    list-style-type: none;
+}
+li{
+    float: left;
+}
+li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+}
+li:hover{
+    background-color: aqua;
+    }
+/*Para todas las tablas que aparezcan*/
+table{
+    border: 1px solid;
+    border-color: black;
+    border-collapse: collapse;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Cuando paso con el mouse por encima de la fila (<tr>)*/
+tr:hover{
+    opacity: 1;
+    color: gold;
+}
+.tf{
+    background-color: aqua;
+}
+#tf2-2{
+    background-color: yellow;
+}
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#pagina{
+    background-image: url("fondo.jpg"); 
+    width: fit-content;
+    height: 1000px;
+}
